@@ -1,0 +1,1 @@
+wordle @ file:///C:/Work/Python/wordle-clone

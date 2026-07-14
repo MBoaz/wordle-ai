@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordle-ai"
+version = "0.1.0"
+description = "Bayesian-filter Wordle solver, built against the wordle-clone programmatic interface."
+requires-python = ">=3.9"
+dependencies = [
+    "wordle @ file:///C:/Work/Python/wordle-clone",
+]
+
+[project.scripts]
+wordle-ai = "wordle_ai.cli:main"
+
+[tool.setuptools]
+packages = ["wordle_ai"]

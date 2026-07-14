@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: wordle-ai
+Version: 0.1.0
+Summary: Bayesian-filter Wordle solver, built against the wordle-clone programmatic interface.
+Requires-Python: >=3.9
+Requires-Dist: wordle @ file:///C:/Work/Python/wordle-clone
